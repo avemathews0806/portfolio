@@ -1,14 +1,19 @@
 {
     "name": "portfolio-final",
     "version": "1.0.0",
-    "description": "Portfolio",
+    "description": "portfolio",
     "main": "index.js",
-    "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-    },
-    "author": "Avery Mathews",
-    "license": "ISC",
+    "homepage": "https://avemathews0806.github.io/portfolio",
     "dependencies": {
+        "gh-pages": "^2.0.1",
         "node-sass": "^4.12.0"
-    }
+    },
+    "devDependencies": {},
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [],
+    "author": "Avery Mathews",
+    "license": "ISC"
 }
